@@ -56,6 +56,7 @@ class MainActivity : BaseActivity() {
         }
     }
 
+    //Popular 
     private fun initPopular() {
 
         binding.progressBarPopular.visibility = android.view.View.VISIBLE

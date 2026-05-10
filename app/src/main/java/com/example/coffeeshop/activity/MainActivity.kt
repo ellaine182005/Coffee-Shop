@@ -74,7 +74,7 @@ class MainActivity : BaseActivity() {
         viewModel.loadPopular()
     }
 
-    //Available Offer
+    
     private fun initOffer() {
 
         binding.progressBarOffer.visibility = android.view.View.VISIBLE

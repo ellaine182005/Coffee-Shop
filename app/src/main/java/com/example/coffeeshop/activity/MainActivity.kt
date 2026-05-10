@@ -31,7 +31,7 @@ class MainActivity : BaseActivity() {
 
     private fun bottomMenu() {
 
-        // CART BUTTON
+        
         binding.cartBtn.setOnClickListener {
             startActivity(Intent(this, CartActivity::class.java))
         }
@@ -74,7 +74,7 @@ class MainActivity : BaseActivity() {
         viewModel.loadPopular()
     }
 
-    
+
     private fun initOffer() {
 
         binding.progressBarOffer.visibility = android.view.View.VISIBLE

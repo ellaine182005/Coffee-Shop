@@ -10,7 +10,7 @@ import com.example.coffeeshop.helper.ChangeNumberItemsListener
 import com.example.coffeeshop.helper.ManagmentCart
 
 class CartActivity : BaseActivity() {
-   //Cart
+
     private lateinit var management: ManagmentCart
     private var tax: Double = 0.0
 

@@ -12,7 +12,7 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class CheckoutActivity : AppCompatActivity() {
-    //Checkout
+
     private lateinit var binding: ActivityCheckoutBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

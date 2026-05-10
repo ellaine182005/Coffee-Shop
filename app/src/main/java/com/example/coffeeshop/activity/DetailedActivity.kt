@@ -17,7 +17,7 @@ import com.example.coffeeshop.helper.ManagmentCart
 import com.example.coffeeshop.model.ItemsModel
 
 class DetailedActivity : BaseActivity() {
-
+//Detailed
     private lateinit var item: ItemsModel
     private val binding: ActivityDetailedBinding by lazy {
         ActivityDetailedBinding.inflate(layoutInflater)
